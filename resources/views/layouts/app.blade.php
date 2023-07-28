@@ -32,7 +32,5 @@
                 {{ $slot }}
             </main>
         </div>
-        <script src="{{ asset('js/app.js') }}"></script>
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </body>
 </html>
