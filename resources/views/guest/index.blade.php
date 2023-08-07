@@ -1,9 +1,8 @@
-<x-app-layout>
+<x-appGuest-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             投稿の一覧
         </h2>
-
 
     </x-slot>
 
@@ -26,4 +25,4 @@
             </div>
         @endforeach
     </div>
-</x-app-layout>
+</x-appGuest-layout>
