@@ -18,6 +18,9 @@
                     <x-nav-link :href="route('post.create')" :active="request()->routeIs('post.create')">
                         新規投稿
                     </x-nav-link>
+                    <x-nav-link :href="route('profile.index')" :active="request()->routeIs('profile.index')">
+                        ユーザー一覧
+                    </x-nav-link>
                     
                 </div>
             </div>
