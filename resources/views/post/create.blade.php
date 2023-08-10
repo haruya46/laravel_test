@@ -7,6 +7,7 @@
         <x-input-error class="mb-4" :messages="$errors->all()"/>
     </x-slot>
     
+    
         {{-- 最初に作成した部分 --}}
         <form method="post" action="{{route('post.store')}}" enctype="multipart/form-data">
         @csrf
